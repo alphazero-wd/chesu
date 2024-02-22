@@ -1,5 +1,3 @@
-import { VALID_MOVE_FLAG } from "../constants";
-
 export enum Piece {
   Rook = "R",
   Knight = "N",
@@ -10,8 +8,8 @@ export enum Piece {
 }
 
 export enum Color {
-  White,
-  Black,
+  White = "White",
+  Black = "Black",
 }
 
 export interface BoardPiece {
